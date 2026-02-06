@@ -1,0 +1,13 @@
+#square
+{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: black;
+}
+div
+{
+    margin: 20px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
