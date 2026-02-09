@@ -14,8 +14,8 @@ class Length extends React.Component
 
     setLength = () =>
     {
-        document.getElementById('square').style.width = this.state.length;
-        document.getElementById('square').style.height = this.state.length;
+        document.getElementById('square').style.width = `${this.state.length}px`;
+        document.getElementById('square').style.height = `${this.state.length}px`;
     }
 
     inc = () =>
@@ -43,7 +43,7 @@ class Length extends React.Component
                 <button onClick={this.inc}>Inc</button>
                 <button onClick={this.dec}>Dec</button>
                 <button onClick={this.reset}>Reset</button>
-                <div id='square' style={{width:this.state.length,height:this.state.length}}></div>
+                <div id='square' ></div>
             </div>
         );
     }
