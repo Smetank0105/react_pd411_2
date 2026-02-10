@@ -1,0 +1,20 @@
+div
+{
+    border:none;
+}
+.Container
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.Field
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+select
+{
+    text-align: center;
+}

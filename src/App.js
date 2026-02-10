@@ -4,6 +4,7 @@ import Hello from './Hello.js';
 import Length from './Length.js';
 import Range from './Range.js';
 import Form from './Form.js';
+import Converter from './Converter.js';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Length />
       <Range />
       <Form />
+      <Converter />
     </div>
   );
 }
